@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    /* border:1px solid red;  */
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(165, 66, 31,0.5);
+}
+.container{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+div{
+    margin:30px;
+    padding: 20px;
+}
+#input_box{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 2px;
+   
+}
+#check_button{
+    margin:0 ;
+    padding: 2px;
+    border:1px solid rgb(1,1,82);
+    border-radius: 5px;
+    background-color: rgb(1, 1, 82);
+    color:white;
+}
+#check_button:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+
+#container__text1{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+#container__text2{
+    font-weight: lighter;
+    font-size: 0.65rem;
+}
+
+img{
+    
+    border-radius: 50px;
+    opacity: 0.9;
+}
